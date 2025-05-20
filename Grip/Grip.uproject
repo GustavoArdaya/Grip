@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{7D6DB2B6-4C2A-17DB-B74D-95A7597D0959}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Grip",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

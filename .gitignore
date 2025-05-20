@@ -1,0 +1,39 @@
+# ==========================================
+# Unreal Engine 5 Project Ignore Settings
+# ==========================================
+
+# Ignore everything in CustomUnrealEngine5_5
+CustomUnrealEngine5_5/**
+
+# ==========================================
+# Unreal Game Project Ignore Settings (Grip)
+# ==========================================
+
+# Ignore common project folders
+Grip/Binaries/
+Grip/DerivedDataCache/
+Grip/Intermediate/
+Grip/Saved/
+Grip/.vs/
+Grip/.idea/
+Grip/.vscode/
+
+# Ignore compiled binaries or IDE files
+Grip/*.sln
+Grip/*.opensdf
+Grip/*.VC.db
+
+# Ignore OS junk
+*.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.app
+*.log
+*.generated.*
+forceadd.bat
